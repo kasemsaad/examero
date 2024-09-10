@@ -14,6 +14,7 @@ import ImgProfile2 from "../../assets/image/home/Group 323.svg";
 import ImgProfile3 from "../../assets/image/home/Group 320.svg";
 import ImgProfile4 from "../../assets/image/home/Group 323.svg";
 import logoex from "./Group 57.svg";
+import logoe2 from "./Unt-01.png";
 import paypal from "../../assets/image/home/1655977977paypal-logo-transparent.png";
 import mastercard from "../../assets/image/home/MasterCard_Logo.svg.png";
 import Api_Website from "../../utlis/axios_utils_websit";
@@ -782,8 +783,11 @@ function Home() {
             {/* <div className=" d-flex align-items-center justify-content-between"  style={{ backgroundColor:"#4941A6"}}> */}
 
             <div className="  " style={{ borderTop: "2px solid #ffff", backgroundColor: "#4941A6", color: "white" }} >
-                <div className=" p-0  m-0 d-flex align-items-center justify-content-between  " dir="rtl" style={{ width: "100%", height:"10vh" }}>
+                <div className=" p-0 py-5 m-0 d-flex align-items-center justify-content-between  " dir="rtl" style={{ width: "100%", height:"10vh" }}>
                     <div className="logo">
+                        {/* <img className="" src={logoex} alt="logo"/> */}
+                    </div>
+                    <div className="logo2">
                         {/* <img className="" src={logoex} alt="logo"/> */}
                     </div>
                    

@@ -537,7 +537,16 @@ font-size: 16px;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    height:80px;
+    height:61px;
+    width:300px; 
+    /* margin-left: -90px;    */
+}
+.logo2{
+    background-image: url(./11-01.svg);
+    background-position: center;
+    background-size:99% 298%;
+    background-repeat: no-repeat;
+    height:70px;
     width:300px; 
     /* margin-left: -90px;    */
 }

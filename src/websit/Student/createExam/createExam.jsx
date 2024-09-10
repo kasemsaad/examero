@@ -279,7 +279,6 @@ function CreateExam(props) {
               }
               else {
                 document.body.style.removeProperty('overflow');
-                console.log(data)
                 Api_Website.post(`/students/genrate-exam`, data)
                   .then(response => {
                     const modalElementExam = document.getElementById('Exam');
