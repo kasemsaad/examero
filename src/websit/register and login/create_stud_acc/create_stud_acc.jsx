@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Row, Col, Form, Button, Alert, Dropdown, DropdownButton, ProgressBar } from 'react-bootstrap';
 import './create_stud_acc.css';
-import emailIcon from '../../../assets/icons/register and login icon/mail-email-icon-template-black-color-editable-mail-email-icon-symbol-flat-illustration-for-graphic-and-web-design-free-vector 2.svg';
+import emailIcon from '../../../assets/icons/register and login icon/mail.svg';
 import passIcon from '../../../assets/icons/register and login icon/pngtree-password-vector-icon-design-illustration-png-image_6597553 3.svg';
 import rightCheck from '../../../assets/icons/register and login icon/check-mark-vector-free-1 1.svg';
 import lockIcon from '../../../assets/icons/register and login icon/padlock-icon-lock-and-unlock-icon-design-free-vector 1.svg';
