@@ -402,7 +402,7 @@ function Home() {
                         </div>
                         <div className="blockButtons" dir="rtl">
                             <Link to="/" className="Button2" onClick={() => scrollHandler(sec6)}>استكشف باقاتنا</Link>
-                            <Link to="/" className="Button3 mx-2 ">تواصل عبر الواتساب</Link>
+                            <Link to="https://wa.me/96200962781466490" className="Button3 mx-2 ">تواصل عبر الواتساب</Link>
                         </div>
                     </Sectioncontent2>
                     <SectionImage2 className="SectionImage2 col-md-4 p-0">

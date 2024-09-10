@@ -279,6 +279,7 @@ function CreateExam(props) {
               }
               else {
                 document.body.style.removeProperty('overflow');
+                console.log(data)
                 Api_Website.post(`/students/genrate-exam`, data)
                   .then(response => {
                     const modalElementExam = document.getElementById('Exam');
@@ -465,7 +466,7 @@ function CreateExam(props) {
               )}
             </div>
 
-            <form className="modal-body managerForm" onSubmit={handleSubmit}>
+            <form className="modal-body managerForm" onSubmit={(e) => e.preventDefault()}>
 
               <div className="collapse" id="collapseExample" >
 
@@ -666,7 +667,7 @@ function CreateExam(props) {
 
                   </div>
                   <div className=" mt-5" dir='ltr'>
-                    <button type="submit" className=' text-bold rounded-4 px-4 py-2' style={{ backgroundColor: "#C01F59", color: "white" }}>إنشاء الامتحان</button>
+                    <button onClick={handleSubmit} className=' text-bold rounded-4 px-4 py-2' style={{ backgroundColor: "#C01F59", color: "white" }}>إنشاء الامتحان</button>
                   </div>
                 </div>
 
