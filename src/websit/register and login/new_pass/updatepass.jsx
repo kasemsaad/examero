@@ -10,7 +10,7 @@ const SuccessMessage = ({ message }) => {
     const navigate = useNavigate();
 
     const handleNavigateHome = () => {
-        navigate('/login_student'); 
+        navigate('/signup'); 
     };
     return (
         <div style={{
@@ -36,7 +36,7 @@ const SuccessMessage = ({ message }) => {
                 }}>
                     <img src={doneImage} alt="Done Icon" style={{ width: '150px', marginBottom: '20px' }} />
                     <h2 style={{ direction: 'rtl' }}>{message}</h2>
-                    <Link to="/login_student" style={{ textDecoration: 'none', marginTop: '20px' }}>
+                    <Link to="/signup" style={{ textDecoration: 'none', marginTop: '20px' }}>
                         <Button
                             style={{
                                 padding: '12px 24px',

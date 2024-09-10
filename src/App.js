@@ -130,7 +130,7 @@ document.title="Examero | Site"
               <SuccessPayment />
           }
         />
-        <Route path="/PrivacyPolicy"
+        <Route path="/about"
         element={<PrivacyPolicy/>        }
         />
         <Route
@@ -143,7 +143,7 @@ document.title="Examero | Site"
         />
         <Route path="/CreateStudentAccount" element={<CreateStudentAcc />} />
         <Route path="/CreateTecherAccount" element={<CreateTechAcc />} />
-        <Route path="/login_student" element={<Login1 />} />
+        <Route path="/signup" element={<Login1 />} />
         <Route path="/login_teacher" element={<Login />} />
         <Route path="/StudentNewPassword" element={<New_pass />} />
 

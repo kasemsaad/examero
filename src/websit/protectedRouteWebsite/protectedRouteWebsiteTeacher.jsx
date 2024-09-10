@@ -14,7 +14,7 @@ const ProtectedRoute = ({ children }) => {
 
       }
       else if(userType ==="student"){
-        return Navigate("/login_student");
+        return Navigate("/signup");
       }
       else{
       Navigate("/");

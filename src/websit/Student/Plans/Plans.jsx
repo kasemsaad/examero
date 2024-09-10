@@ -185,7 +185,7 @@ function Plans(props) {
                 console.error("Error fetching mastercard data:");
                 loading()
                 setTimeout(() => {
-                    navigate("/login_student")
+                    navigate("/signup")
                 }, 4000);
             });
     }
@@ -202,7 +202,7 @@ function Plans(props) {
                 console.error("Error fetching paypal data:");
                 loading()
                 setTimeout(() => {
-                    navigate("/login_student")
+                    navigate("/signup")
                 }, 4000);
 
             });

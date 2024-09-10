@@ -1,5 +1,4 @@
 /* eslint-disable */
-
 import { Router, Link, useNavigate, useLocation } from "react-router-dom";
 import "./style.css";
 import homeIcon from '../../assets/icons/sidebar/majesticons_home-line.svg';
