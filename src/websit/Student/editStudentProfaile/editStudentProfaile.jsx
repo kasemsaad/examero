@@ -295,7 +295,7 @@ function EditStudentProfaile() {
         console.error("Error fetching mastercard data:");
         // loading()
         setTimeout(() => {
-          navigate("/signup")
+          navigate("/login_student")
         }, 4000);
       });
   }
@@ -312,7 +312,7 @@ function EditStudentProfaile() {
         console.error("Error fetching paypal data:");
         // loading()
         setTimeout(() => {
-          navigate("/signup")
+          navigate("/login_student")
         }, 4000);
 
       });

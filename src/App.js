@@ -141,9 +141,10 @@ document.title="Examero | Site"
           path="/verify-account-student"
           element={<EmailVerificationStud />}
         />
-        <Route path="/CreateStudentAccount" element={<CreateStudentAcc />} />
-        <Route path="/CreateTecherAccount" element={<CreateTechAcc />} />
-        <Route path="/signup" element={<Login1 />} />
+  <Route path="/CreateStudentAccount" element={<CreateStudentAcc />} />
+        <Route path="/signup" element={<CreateStudentAcc />} />
+<Route path="/CreateTecherAccount" element={<CreateTechAcc />} />
+        <Route path="/login_student" element={<Login1 />} />
         <Route path="/login_teacher" element={<Login />} />
         <Route path="/StudentNewPassword" element={<New_pass />} />
 

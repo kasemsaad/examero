@@ -70,7 +70,7 @@ function CreateStudentAcc() {
     const navigate = useNavigate();
 
     const handlebackhome = () => {
-        navigate('/signup');
+        navigate('/login_student');
     };
 
     const handleSubmit = (e) => {
