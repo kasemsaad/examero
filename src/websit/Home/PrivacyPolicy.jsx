@@ -168,16 +168,17 @@ function PrivacyPolicy () {
             </Footer>
             {/* <div className=" d-flex align-items-center justify-content-between"  style={{ backgroundColor:"#4941A6"}}> */}
 
-            <div className="px-4 pt-1 " style={{ borderTop: "2px solid #ffff", backgroundColor: "#4941A6", color: "white" }} >
-                <div className="row p-0  m-0 d-flex align-items-center justify-content-center" dir="rtl" style={{ width: "100%", display: "flex", alignItems: "center", justifyContent: "space-between" }}>
-                    <div className="col-md-4 text-end"   >
-                        <p>© 2024 Examero. All Rights Reserved</p>
+            <div className="  " style={{ borderTop: "2px solid #ffff", backgroundColor: "#4941A6", color: "white" }} >
+                <div className=" p-0 py-5 m-0 d-flex align-items-center justify-content-between  " dir="rtl" style={{ width: "100%", height:"10vh" }}>
+                    <div className="logo">
+                        {/* <img className="" src={logoex} alt="logo"/> */}
                     </div>
-                    <div className="col-md-4 text-center"  >
-                        <p>© 2024 Examero. All Rights Reserved</p>
+                    <div className="logo2">
+                        {/* <img className="" src={logoe2} alt="logo"/> */}
                     </div>
-                    <div className="col-md-4 text-start"  >
-                        <p>© 2024 Examero. All Rights Reserved</p>
+                   
+                    <div className=" textfooter"  >
+                        <p> 2024 Examero. All Rights Reserved ©</p>
 
                     </div>
 
