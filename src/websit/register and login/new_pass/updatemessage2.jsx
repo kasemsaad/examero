@@ -20,10 +20,8 @@ const SuccessMessage2 = ({ message }) => {
             minHeight: '100vh',
             backgroundColor: '#f0f2f5', // Set the background color
         }}>
-            <Imgcom />
-            <Col xs={12} sm={12} md={12} lg={12} xl={6} xxl={6} className="d-flex flex-column align-items-center justify-content-center" style={{
+            <div  className="d-flex flex-column align-items-center justify-content-center" style={{
                 height: '100vh',
-                background: 'linear-gradient(180deg, #FFCF6B 0%, #C01F59 213.56%)'
             }}>
                 <div style={{
                     textAlign: 'center',
@@ -56,7 +54,7 @@ const SuccessMessage2 = ({ message }) => {
                         </Button>
                     </Link>
                 </div>
-            </Col>
+            </div>
         </div>
     );
 };
